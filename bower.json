@@ -1,0 +1,19 @@
+{
+  "name": "ballot",
+  "version": "0.0.1",
+  "authors": [
+    "IvanWu <ivanwu@fashionguide.com.tw>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
