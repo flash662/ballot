@@ -39,7 +39,7 @@
 
           $("#person1").click(function() {
 
-            var random = Math.floor(Math.random() * 4);
+            var random = Math.floor(Math.random() * person.length);
             person1 = person[random];
 
             $(this).find('span').text(person1);
@@ -48,7 +48,7 @@
           $("#person2").click(function(){
               while(true) {
 
-                var random = Math.floor(Math.random() * 4);
+                var random = Math.floor(Math.random() * person.length);
                 person2 = person[random];
 
                 if(person2 != person1) {
